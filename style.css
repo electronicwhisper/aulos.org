@@ -1,0 +1,214 @@
+/*A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline}
+
+<TITLE>The Centaur Series - Aulos Ensemble</TITLE></HEAD>
+<BODY BGCOLOR="#D6D6AC" BACKGROUND="bg.gif" TEXT="#000000" LINK="#003366" ALINK="#006666" VLINK="#003366">
+
+<CENTER><IMG SRC="trans.gif" WIDTH=1 HEIGHT=8 ALIGN=CENTER><BR>
+<TABLE ALIGN=CENTER WIDTH=100% HEIGHT=100 ALIGN=CENTER BORDER=0 CELLPADDING=0 CELLSPACING=0><TR>
+<TD ALIGN=LEFT><IMG SRC="centaur.gif" WIDTH=400 HEIGHT=75 ALT="The Centaur Series"></TD>
+<TD ALIGN=RIGHT><A HREF="index.htm"><IMG SRC="topright.gif" WIDTH=150 HEIGHT=100 ALT="Back to Home" BORDER=0></A></TD>
+</TABLE></CENTER>
+<BR><IMG SRC="trans.gif" WIDTH=1 HEIGHT=3 ALIGN=CENTER><BR>
+*/
+/* unvisited link */
+a:link {
+    color: #003366;
+    text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #003366;
+    text-decoration: none;
+}
+
+/*/* mouse over link */
+a:hover {
+	text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+	text-decoration: none;
+}
+
+body {
+background-color: #E6E6AC;
+margin: 0px;
+}
+
+li {
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+.header h1 {
+	margin: 0px;
+	padding-left: 20px;
+	padding-top: 60px;
+	font-size: 40px;
+	max-width: 500px;
+}
+
+.header img {
+	float: right;
+	padding-right: 10px;
+	margin-top: 15px;
+
+}
+
+.header {
+background-color: #ffffcc;
+height: 125px;
+padding: 0px;
+border-bottom: solid 1px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 800px;
+
+}
+
+.container img {
+    max-width: 300px;
+    margin: 20px;
+    padding: 5px;
+    background-color: #E6E6AC;
+	/*box-shadow: 0px 1px 2px rgba(0, 0, 0, 1);*/
+    border: 1px solid gray;
+}
+
+.inline_red {
+    color: rgb(157, 0, 0);
+    font-weight: bold;
+    display: inline;
+}
+
+.cd_left img {
+    float: left;
+}
+
+.cd_left, .cd_right {
+    overflow: hidden;
+    border: 1px solid black;
+    box-shadow: 0px 0px 11px 0px rgba(50, 50, 50, 0.45);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 800px;
+    font-family: garamond, palatino;
+    background-color: #ffffcc;
+}
+
+.cd_right img {
+    float: right;
+}
+
+.cd_left p {
+    font-size: 18px;
+    line-height: 1.2em;
+    margin-right: 20px;
+    display: inline;
+}
+
+
+.cd_right p {
+    font-size: 18px;
+    line-height: 1.2em;
+    margin-left: 20px;
+    display: inline;
+}
+
+ .cd_left_text, .cd_right_text {
+    display: flex;
+    display: -webkit-flex;
+    justify-content: center;
+    -webkit-justify-content: center;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 350px;
+}
+
+.redfont {
+    color: rgb(157, 0, 0);
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 auto;
+    padding-left: 110px;
+    line-height: 2em;
+    text-shadow: 1px 0px 0px rgba(150, 150, 150, 1);
+
+}
+
+.emphasize {
+    font-weight: bold;
+    font-size: 30px;
+    padding-left: 120px;
+    text-shadow: 1px 0px 0px rgba(150, 150, 150, 1);
+}
+
+#sp-container img {
+    max-width: 700px;
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffcc;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 1);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.smaller {
+    font-size: 15px;
+    text-align: right;
+    width: 580px;
+    line-height: 1.5;
+}
+
+.smallest {
+    font-size: 14px;
+    text-align: right;
+    width: 580px;
+    line-height: 1.2;
+}
+
+.row {
+    text-align: center;
+
+}
+
+.prominent {
+    font-size: 50px;
+}
+
+#slideshow { 
+    margin: 0px auto; 
+    position: relative; 
+    min-width: 600px; 
+    min-height: 120px;
+    padding: 10px;
+    font-family: garamond, serif;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #9D0000;
+    line-height: 1.2;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    left: 10px; 
+    right: 10px; 
+    display: none;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+}
+
+
+
+
